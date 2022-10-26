@@ -38,7 +38,7 @@ const Nav = ({ inView }) => {
       }}
     >
       <div className="nav-text">
-        <h1>Aarab.</h1>
+        <h1>&lt; Buchi / &gt;</h1>
       </div>
 
       <ul className="nav-links">

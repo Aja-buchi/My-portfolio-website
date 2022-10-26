@@ -28,7 +28,10 @@ const About = () => {
             <img src={About_Image} alt="profile_pic" />
           </div> */}
         <div className="me image-card">
-          <img src={require("../../assets/Pics/me2.jpg")} alt="me" />
+          <img
+            src={require("../../assets/Pics/profile_picture.jpeg")}
+            alt="me"
+          />
         </div>
         {/* </div> */}
 
@@ -37,7 +40,7 @@ const About = () => {
             <article className="about_card-content">
               <FaAward className="about_icons" />
               <h5>Experience</h5>
-              <small>Curently studying</small>
+              <small>Learning never ends</small>
             </article>
 
             <article className="about_card-content">
@@ -53,10 +56,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello! My name is <span>Aarab Nishchal</span> and I enjoy creating
-            things that live on the internet. My interest in web development
-            started back in high school and has been something that's been a
-            part of my life for the past few years.
+            Hello ! My name is <span>Aja Onyebuchi</span> and I am focused on delivering value and excellence through passionate learning and innovation while executing best practices using TDD, BDD and innovations to solve life problems.
             <br />I am a creative problem solver who loves to create and is
             always trying new things.
           </p>
